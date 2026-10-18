@@ -1,0 +1,179 @@
+--- 実験A: 前（正規化なし、学習率0.01）、50エポック
+epoch   0  loss 0.6082  train_acc 0.9108  test_acc 0.9124
+epoch   1  loss 0.3120  train_acc 0.9297  test_acc 0.9277
+epoch   2  loss 0.2546  train_acc 0.9402  test_acc 0.9351
+epoch   3  loss 0.2195  train_acc 0.9480  test_acc 0.9391
+epoch   4  loss 0.1948  train_acc 0.9535  test_acc 0.9430
+epoch   5  loss 0.1756  train_acc 0.9586  test_acc 0.9466
+epoch   6  loss 0.1595  train_acc 0.9627  test_acc 0.9488
+epoch   7  loss 0.1469  train_acc 0.9662  test_acc 0.9495
+epoch   8  loss 0.1348  train_acc 0.9704  test_acc 0.9512
+epoch   9  loss 0.1238  train_acc 0.9736  test_acc 0.9527
+epoch  10  loss 0.1143  train_acc 0.9753  test_acc 0.9543
+epoch  11  loss 0.1063  train_acc 0.9780  test_acc 0.9551
+epoch  12  loss 0.0985  train_acc 0.9800  test_acc 0.9560
+epoch  13  loss 0.0919  train_acc 0.9819  test_acc 0.9575
+epoch  14  loss 0.0854  train_acc 0.9833  test_acc 0.9572
+epoch  15  loss 0.0794  train_acc 0.9852  test_acc 0.9581
+epoch  16  loss 0.0733  train_acc 0.9871  test_acc 0.9574
+epoch  17  loss 0.0684  train_acc 0.9877  test_acc 0.9601
+epoch  18  loss 0.0639  train_acc 0.9895  test_acc 0.9595
+epoch  19  loss 0.0593  train_acc 0.9902  test_acc 0.9598
+epoch  20  loss 0.0556  train_acc 0.9909  test_acc 0.9598
+epoch  21  loss 0.0525  train_acc 0.9918  test_acc 0.9587
+epoch  22  loss 0.0492  train_acc 0.9923  test_acc 0.9605
+epoch  23  loss 0.0463  train_acc 0.9928  test_acc 0.9610
+epoch  24  loss 0.0435  train_acc 0.9937  test_acc 0.9592
+epoch  25  loss 0.0410  train_acc 0.9940  test_acc 0.9607
+epoch  26  loss 0.0386  train_acc 0.9945  test_acc 0.9614
+epoch  27  loss 0.0366  train_acc 0.9949  test_acc 0.9599
+epoch  28  loss 0.0349  train_acc 0.9951  test_acc 0.9605
+epoch  29  loss 0.0333  train_acc 0.9954  test_acc 0.9608
+epoch  30  loss 0.0317  train_acc 0.9957  test_acc 0.9608
+epoch  31  loss 0.0303  train_acc 0.9959  test_acc 0.9607
+epoch  32  loss 0.0292  train_acc 0.9959  test_acc 0.9604
+epoch  33  loss 0.0281  train_acc 0.9960  test_acc 0.9610
+epoch  34  loss 0.0271  train_acc 0.9962  test_acc 0.9608
+epoch  35  loss 0.0262  train_acc 0.9963  test_acc 0.9608
+epoch  36  loss 0.0254  train_acc 0.9964  test_acc 0.9603
+epoch  37  loss 0.0246  train_acc 0.9966  test_acc 0.9613
+epoch  38  loss 0.0238  train_acc 0.9967  test_acc 0.9612
+epoch  39  loss 0.0231  train_acc 0.9966  test_acc 0.9610
+epoch  40  loss 0.0225  train_acc 0.9967  test_acc 0.9618
+epoch  41  loss 0.0219  train_acc 0.9968  test_acc 0.9618
+epoch  42  loss 0.0214  train_acc 0.9969  test_acc 0.9613
+epoch  43  loss 0.0208  train_acc 0.9969  test_acc 0.9617
+epoch  44  loss 0.0203  train_acc 0.9971  test_acc 0.9619
+epoch  45  loss 0.0199  train_acc 0.9971  test_acc 0.9616
+epoch  46  loss 0.0194  train_acc 0.9972  test_acc 0.9619
+epoch  47  loss 0.0190  train_acc 0.9972  test_acc 0.9614
+epoch  48  loss 0.0186  train_acc 0.9974  test_acc 0.9620
+epoch  49  loss 0.0182  train_acc 0.9973  test_acc 0.9619
+--- 実験A: 542秒
+--- 実験B: 後（正規化あり、学習率0.01）、50エポック
+epoch   1  loss 1.9103  train_acc 0.7559  test_acc 0.7725
+epoch   2  loss 1.2781  train_acc 0.8084  test_acc 0.8173
+epoch   3  loss 0.9189  train_acc 0.8381  test_acc 0.8484
+epoch   4  loss 0.7352  train_acc 0.8530  test_acc 0.8622
+epoch   5  loss 0.6311  train_acc 0.8594  test_acc 0.8674
+epoch   6  loss 0.5657  train_acc 0.8675  test_acc 0.8749
+epoch   7  loss 0.5205  train_acc 0.8724  test_acc 0.8808
+epoch   8  loss 0.4877  train_acc 0.8772  test_acc 0.8850
+epoch   9  loss 0.4629  train_acc 0.8809  test_acc 0.8887
+epoch  10  loss 0.4432  train_acc 0.8845  test_acc 0.8908
+epoch  11  loss 0.4276  train_acc 0.8865  test_acc 0.8930
+epoch  12  loss 0.4146  train_acc 0.8896  test_acc 0.8955
+epoch  13  loss 0.4036  train_acc 0.8910  test_acc 0.8961
+epoch  14  loss 0.3943  train_acc 0.8911  test_acc 0.8976
+epoch  15  loss 0.3862  train_acc 0.8935  test_acc 0.8991
+epoch  16  loss 0.3791  train_acc 0.8954  test_acc 0.9000
+epoch  17  loss 0.3728  train_acc 0.8965  test_acc 0.9022
+epoch  18  loss 0.3673  train_acc 0.8969  test_acc 0.9020
+epoch  19  loss 0.3621  train_acc 0.8987  test_acc 0.9036
+epoch  20  loss 0.3577  train_acc 0.8993  test_acc 0.9043
+epoch  21  loss 0.3535  train_acc 0.8999  test_acc 0.9046
+epoch  22  loss 0.3498  train_acc 0.9010  test_acc 0.9054
+epoch  23  loss 0.3464  train_acc 0.9012  test_acc 0.9063
+epoch  24  loss 0.3431  train_acc 0.9032  test_acc 0.9084
+epoch  25  loss 0.3400  train_acc 0.9034  test_acc 0.9080
+epoch  26  loss 0.3374  train_acc 0.9047  test_acc 0.9104
+epoch  27  loss 0.3346  train_acc 0.9053  test_acc 0.9096
+epoch  28  loss 0.3323  train_acc 0.9059  test_acc 0.9097
+epoch  29  loss 0.3300  train_acc 0.9063  test_acc 0.9106
+epoch  30  loss 0.3279  train_acc 0.9067  test_acc 0.9117
+epoch  31  loss 0.3258  train_acc 0.9074  test_acc 0.9119
+epoch  32  loss 0.3239  train_acc 0.9072  test_acc 0.9126
+epoch  33  loss 0.3223  train_acc 0.9079  test_acc 0.9118
+epoch  34  loss 0.3203  train_acc 0.9083  test_acc 0.9132
+epoch  35  loss 0.3187  train_acc 0.9089  test_acc 0.9131
+epoch  36  loss 0.3172  train_acc 0.9099  test_acc 0.9134
+epoch  37  loss 0.3156  train_acc 0.9103  test_acc 0.9148
+epoch  38  loss 0.3143  train_acc 0.9099  test_acc 0.9139
+epoch  39  loss 0.3130  train_acc 0.9112  test_acc 0.9154
+epoch  40  loss 0.3117  train_acc 0.9119  test_acc 0.9155
+epoch  41  loss 0.3103  train_acc 0.9117  test_acc 0.9146
+epoch  42  loss 0.3093  train_acc 0.9118  test_acc 0.9151
+epoch  43  loss 0.3080  train_acc 0.9126  test_acc 0.9163
+epoch  44  loss 0.3070  train_acc 0.9124  test_acc 0.9144
+epoch  45  loss 0.3060  train_acc 0.9132  test_acc 0.9152
+epoch  46  loss 0.3049  train_acc 0.9130  test_acc 0.9169
+epoch  47  loss 0.3039  train_acc 0.9133  test_acc 0.9155
+epoch  48  loss 0.3030  train_acc 0.9135  test_acc 0.9160
+epoch  49  loss 0.3019  train_acc 0.9140  test_acc 0.9168
+epoch  50  loss 0.3010  train_acc 0.9137  test_acc 0.9164
+--- 実験B: 557秒
+--- 実験C: 後から正規化だけ外した版、3エポック
+epoch   1  loss 0.6082  train_acc 0.9108  test_acc 0.9124
+epoch   2  loss 0.3120  train_acc 0.9297  test_acc 0.9277
+epoch   3  loss 0.2546  train_acc 0.9402  test_acc 0.9351
+--- 実験C: 34秒
+--- 実験D: 後（正規化あり、学習率0.1）、50エポック
+epoch   1  loss 0.9615  train_acc 0.8785  test_acc 0.8877
+epoch   2  loss 0.4019  train_acc 0.8867  test_acc 0.8935
+epoch   3  loss 0.3509  train_acc 0.9021  test_acc 0.9056
+epoch   4  loss 0.3295  train_acc 0.9110  test_acc 0.9158
+epoch   5  loss 0.3158  train_acc 0.9071  test_acc 0.9106
+epoch   6  loss 0.3059  train_acc 0.9137  test_acc 0.9172
+epoch   7  loss 0.2984  train_acc 0.9139  test_acc 0.9154
+epoch   8  loss 0.2917  train_acc 0.9160  test_acc 0.9160
+epoch   9  loss 0.2864  train_acc 0.9178  test_acc 0.9213
+epoch  10  loss 0.2815  train_acc 0.9210  test_acc 0.9211
+epoch  11  loss 0.2767  train_acc 0.9228  test_acc 0.9241
+epoch  12  loss 0.2720  train_acc 0.9250  test_acc 0.9249
+epoch  13  loss 0.2669  train_acc 0.9224  test_acc 0.9216
+epoch  14  loss 0.2620  train_acc 0.9244  test_acc 0.9259
+epoch  15  loss 0.2569  train_acc 0.9260  test_acc 0.9268
+epoch  16  loss 0.2513  train_acc 0.9303  test_acc 0.9294
+epoch  17  loss 0.2459  train_acc 0.9314  test_acc 0.9284
+epoch  18  loss 0.2405  train_acc 0.9332  test_acc 0.9321
+epoch  19  loss 0.2350  train_acc 0.9363  test_acc 0.9331
+epoch  20  loss 0.2291  train_acc 0.9357  test_acc 0.9342
+epoch  21  loss 0.2234  train_acc 0.9396  test_acc 0.9366
+epoch  22  loss 0.2176  train_acc 0.9405  test_acc 0.9381
+epoch  23  loss 0.2120  train_acc 0.9423  test_acc 0.9397
+epoch  24  loss 0.2065  train_acc 0.9445  test_acc 0.9408
+epoch  25  loss 0.2007  train_acc 0.9451  test_acc 0.9436
+epoch  26  loss 0.1961  train_acc 0.9464  test_acc 0.9429
+epoch  27  loss 0.1907  train_acc 0.9462  test_acc 0.9432
+epoch  28  loss 0.1854  train_acc 0.9485  test_acc 0.9446
+epoch  29  loss 0.1811  train_acc 0.9513  test_acc 0.9468
+epoch  30  loss 0.1761  train_acc 0.9501  test_acc 0.9473
+epoch  31  loss 0.1715  train_acc 0.9541  test_acc 0.9506
+epoch  32  loss 0.1670  train_acc 0.9543  test_acc 0.9494
+epoch  33  loss 0.1632  train_acc 0.9544  test_acc 0.9496
+epoch  34  loss 0.1590  train_acc 0.9541  test_acc 0.9514
+epoch  35  loss 0.1549  train_acc 0.9564  test_acc 0.9525
+epoch  36  loss 0.1515  train_acc 0.9585  test_acc 0.9559
+epoch  37  loss 0.1475  train_acc 0.9594  test_acc 0.9556
+epoch  38  loss 0.1444  train_acc 0.9603  test_acc 0.9564
+epoch  39  loss 0.1410  train_acc 0.9617  test_acc 0.9576
+epoch  40  loss 0.1376  train_acc 0.9626  test_acc 0.9577
+epoch  41  loss 0.1347  train_acc 0.9634  test_acc 0.9594
+epoch  42  loss 0.1315  train_acc 0.9640  test_acc 0.9593
+epoch  43  loss 0.1286  train_acc 0.9656  test_acc 0.9597
+epoch  44  loss 0.1260  train_acc 0.9659  test_acc 0.9610
+epoch  45  loss 0.1234  train_acc 0.9664  test_acc 0.9611
+epoch  46  loss 0.1205  train_acc 0.9678  test_acc 0.9624
+epoch  47  loss 0.1181  train_acc 0.9689  test_acc 0.9625
+epoch  48  loss 0.1159  train_acc 0.9682  test_acc 0.9629
+epoch  49  loss 0.1131  train_acc 0.9698  test_acc 0.9634
+epoch  50  loss 0.1108  train_acc 0.9699  test_acc 0.9643
+--- 実験D: 554秒
+
+=== 50エポック後の結果
+実験  誤差     学習データ正答率  テストデータ正答率  テスト正答率の最大値(エポック)
+A     0.0182   0.9973            0.9619              0.9620 (49)
+B     0.3010   0.9137            0.9164              0.9169 (46)
+D     0.1108   0.9699            0.9643              0.9643 (50)
+
+=== 構造の変更で振る舞いが変わっていないか（A と C の最初の3エポック）
+epoch 1: A=[np.float64(0.6082010247807045), np.float64(0.9108166666666667), np.float64(0.9124)]  C=[np.float64(0.6082010247807045), np.float64(0.9108166666666667), np.float64(0.9124)]  一致=True
+epoch 2: A=[np.float64(0.3119701394397956), np.float64(0.9297), np.float64(0.9277)]  C=[np.float64(0.3119701394397956), np.float64(0.9297), np.float64(0.9277)]  一致=True
+epoch 3: A=[np.float64(0.2546080901472541), np.float64(0.94015), np.float64(0.9351)]  C=[np.float64(0.2546080901472541), np.float64(0.94015), np.float64(0.9351)]  一致=True
+
+=== 1エポック目の結果
+A: loss 0.6082  train 0.9108  test 0.9124
+B: loss 1.9103  train 0.7559  test 0.7725
+D: loss 0.9615  train 0.8785  test 0.8877
+
+図を保存しました：report/fig/kadai3_before_after.png, report/fig/kadai3_learning_rate.png

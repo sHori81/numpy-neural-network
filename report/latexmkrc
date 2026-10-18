@@ -1,0 +1,5 @@
+$lualatex = 'lualatex -synctex=1 -file-line-error %O %S';
+$pdf_mode = 4;
+
+# コンパイルで出来るファイル（PDF・.aux・.log など）はすべて build/ に出す
+$out_dir = 'build';
